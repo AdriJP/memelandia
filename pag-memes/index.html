@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memelandia</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        header {
+            margin: 20px;
+            padding: 10px;
+            background: #30ff18;
+            color: #fff;
+        }
+
+        main {
+            border: 3px solid #000;
+            margin: 20px;
+            padding: 15px;
+        }
+
+        .memes {
+            margin: 5px;
+            padding: 5px;
+            border: 2px solid #000;
+        }
+
+        .meme {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .meme img {
+            max-width: 320px;
+            max-height: 320px;
+            margin-top: 15px;
+            border: 1px solid #000;
+        }
+
+        footer {
+            margin: 20px;
+            padding: 5px;
+            color: #fff;
+            background: #000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Bienvenid@ a Memelandia</h2>
+    </header>
+    <main>
+        <h3>Iré posteando los memes que me hagan gracia</h3>
+        <p>Si me quereis mandar memes hacerlo a <a href="/" id="correo">este correo</a><br>
+        Tambien podeis seguirme en mi <a href="/" id="ig">instagram</a> o pasaros por mi
+        <a href="/" id="github">github</a></p>
+        <section class="memes">
+            <h4>Los memes:</h4>
+            <br>
+            <div class="meme" id="meme">
+                <img src="images/meme0.jpeg" alt="">
+                <img src="images/meme1.jpeg" alt="">
+                <img src="images/meme2.jpeg" alt="">
+                <img src="images/meme3.jpeg" alt="">
+                <img src="images/meme4.jpeg" alt="">
+                <img src="images/meme5.jpeg" alt="">
+                <img src="images/meme6.jpeg" alt="">
+                <img src="images/meme7.jpeg" alt="">
+                <img src="images/meme8.jpeg" alt="">
+                <img src="images/meme9.jpeg" alt="">
+                <img src="images/meme10.jpeg" alt="">
+                <img src="images/meme11.jpeg" alt="">
+                <img src="images/meme12.jpeg" alt="">
+                <img src="images/meme13.jpeg" alt="">
+                <img src="images/meme14.jpeg" alt="">
+                <img src="images/meme15.jpeg" alt="">
+                <img src="images/meme16.jpeg" alt="">
+                <img src="images/meme17.jpeg" alt="">
+                <img src="images/meme18.jpeg" alt="">
+                <img src="images/meme19.jpeg" alt="">
+                <img src="images/meme20.jpeg" alt="">
+                <img src="images/meme21.jpeg" alt="">
+                <img src="images/meme22.jpeg" alt="">
+                <img src="images/meme23.jpeg" alt="">
+                <img src="images/meme24.jpeg" alt="">
+                <img src="images/meme25.jpeg" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h4>Por: Adrián Jiménez Pizarro</h4>
+    </footer>
+    <script>
+        document.getElementById("correo")
+            .addEventListener("click", e => {
+                e.preventDefault()
+                alert("adrianjimenez0004@gmail.com")
+            })
+        document.getElementById("ig")
+            .addEventListener("click", e => {
+                e.preventDefault()
+                alert("Instagram: @adrian_almaden")
+            })
+        document.getElementById("github")
+            .addEventListener("click", e => {
+                e.preventDefault()
+                alert("Github: AdriJP")
+            })
+    </script>
+</body>
+</html>
